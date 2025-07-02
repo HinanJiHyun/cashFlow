@@ -1,1 +1,5 @@
 rootProject.name = 'cashflow'
+
+include 'backend'
+include 'frontend'
+
