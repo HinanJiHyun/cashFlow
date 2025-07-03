@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cashflow
+    username: cashflow
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
